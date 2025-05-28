@@ -6,7 +6,7 @@ require('dotenv').config();
 const { createUserTable } = require('./Models/userModel');
 const adminRoutes = require('./Routes/adminRoutes');
 const authRoutes = require('./Routes/authRoutes');
-const userRoutes = require('../Routes/userRoutes');
+const userRoutes = require('./Routes/userRoutes');
 
 
 
